@@ -18,5 +18,7 @@ export const getAbi = async (address: string) => {
     const contract = new ethers.Contract(address, abi,)
 
     console.log(contract.functions)
+    // console.log(await contract.method.GetNFTDetails(1));
+
 
 }
